@@ -1,8 +1,8 @@
 <h1 align="center">Xbotix 2025 Competition Robot</h1>
 
 <p align="center">
-  <img src="media/photos/robot_1.jpeg" alt="Robot - view 1" width="48%">
-  <img src="media/photos/robot_2.jpeg" alt="Robot - view 2" width="48%">
+  <img src="media/photos/robot_1.jpg" alt="Robot - view 1" width="48%">
+  <img src="media/photos/robot_2.jpg" alt="Robot - view 2" width="48%">
 </p>
 
 <p align="center">
