@@ -1,0 +1,28 @@
+# Build output
+build/
+*.elf
+*.hex
+*.bin
+*.o
+*.map
+
+# IDE
+.vscode/
+.idea/
+
+# SolidWorks temp/lock files
+~$*
+*.SLDLFP
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+.venv/
+
+# Secrets
+secrets.h
+.env
