@@ -72,8 +72,7 @@ The full pin assignment is in [`docs/pinout.md`](docs/pinout.md).
 The feeder, grabber and thrower were designed mainly in Tinkercad, with some parts in SolidWorks. Model files are in [`hardware/mechanical`](hardware/mechanical).
 
 <p align="center">
-  <img src="hardware/mechanical/renders/feeder_and_grabber.png" alt="Feeder and grabber" width="48%">
-  <img src="hardware/mechanical/renders/thrower.png" alt="Thrower" width="48%">
+  <img src="hardware/mechanical/renders/feeder_thrower.png" alt="Feeder and grabber" width="48%">
 </p>
 
 ## Firmware
