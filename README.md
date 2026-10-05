@@ -52,6 +52,7 @@ The competition covered the following challenges:
 - Colour identification
 - Driving across a ramp
 
+The official rulebook is available here: [Xbotix 2025 Rulebook](docs/rulebook/xbotix2025_rulebook.pdf)
 Compeition had 20+ pariticipants and We managed to finish in **5th place**
 
 ## Components
