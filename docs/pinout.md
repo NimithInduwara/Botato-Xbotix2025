@@ -1,6 +1,6 @@
 # Pinout
 
-## Main Controller — Arduino Mega 2560 (competition sketches)
+## Main Controller — Arduino Mega 2560
 
 ### Motor Driver
 
