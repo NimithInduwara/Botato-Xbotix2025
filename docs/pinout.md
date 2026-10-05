@@ -1,34 +1,54 @@
-\# Pinout
+# Pinout
 
+## Main Controller — Arduino Mega 2560 (competition sketches)
 
+### Motor Driver
 
-\## Main controller (competition sketches)
+| Motor | Signal | Pin | Notes        |
+|-------|--------|-----|--------------|
+| Left  | IN1    | 6   | Direction    |
+| Left  | IN2    | 7   | Direction    |
+| Left  | EN     | 11  | PWM (speed)  |
+| Right | IN1    | 5   | Direction    |
+| Right | IN2    | 4   | Direction    |
+| Right | EN     | 12  | PWM (speed)  |
 
+### Wheel Encoders
 
+| Encoder | Channel | Pin | Notes                |
+|---------|---------|-----|----------------------|
+| Left    | A       | 19  | Interrupt-capable    |
+| Left    | B       | 18  | Interrupt-capable    |
+| Right   | A       | 3   | Interrupt-capable    |
+| Right   | B       | 2   | Interrupt-capable    |
 
-| Function | Pin |
+### Ultrasonic Sensors
 
-|---|---|
+| Sensor      | Signal  | Pin | Notes                      |
+|-------------|---------|-----|----------------------------|
+| All (L/F/R) | TRIG    | 48  | Shared trigger line        |
+| Left        | ECHO    | 42  |                            |
+| Front       | ECHO    | 44  |                            |
+| Right       | ECHO    | 46  |                            |
 
-| Right motor IN1 / IN2 / EN | 5 / 4 / 12 |
+### Side IR Sensors
 
-| Left motor IN1 / IN2 / EN | 6 / 7 / 11 |
+| Sensor | Pin |
+|--------|-----|
+| Left   | 52  |
+| Right  | 50  |
 
-| Right encoder A / B | 3 / 2 |
+### DIP Switches
 
-| Left encoder A / B | 19 / 18 |
+| Switch | Pin |
+|--------|-----|
+| 1      | 22  |
+| 2      | 41  |
+| 3      | 43  |
+| 4      | 45  |
+| 5      | 47  |
+| 6      | 49  |
+| 7      | 51  |
+| 8      | 53  |
 
-| Ultrasonic trigger | 48 |
-
-| Ultrasonic echo L / R / F | 42 / 46 / 44 |
-
-| Side IR left / right | 52 / 50 |
-
-| DIP switches 1-8 | 22, 41, 43, 45, 47, 49, 51, 53 |
-
-
-
-\## tuning\_bot (Arduino Nano V3.0)
-
-(add its pins here, since they differ from the table above)
-
+---
